@@ -1,0 +1,26 @@
+.board-row {
+    display: flex;
+}
+
+.board-field {
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    background: none;
+    border: none;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.board-row:last-child .board-field {
+    border-bottom: 1px solid black;
+}
+
+.board-row .board-field:last-child {
+    border-right: 1px solid black;
+}
+
+.board-field-marked {
+    background: darkgray;
+
+}
