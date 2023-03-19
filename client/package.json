@@ -1,11 +1,12 @@
 {
   "name": "ai-letters-client",
   "version": "1.0.0",
-  "homepage": "/",
+  "homepage": "/letters/",
   "proxy": "http://localhost:3001",
   "description": "AI Letter recognition client",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "author": "Leszek Czajka <leszek@czajka.dev>",
   "license": "ISC",
