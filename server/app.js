@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 });
 
 // api
-app.use('/api', apiRouter);
+app.use('/letters/api', apiRouter);
 
 // missed API call
 app.use((req, res, next) => {
