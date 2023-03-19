@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+/* .app-wrapper {} */
+
+.app-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.app-main {
+    display: flex;
+}
+
+.right-pane {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button.recognizeButton {
+    margin-top: 35px;
+}
+
+.recognizedLetted {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}

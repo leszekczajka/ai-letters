@@ -1,3 +1,7 @@
+.board button {
+    padding: 0;
+}
+
 .board-row {
     display: flex;
 }
