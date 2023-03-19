@@ -32,6 +32,6 @@ app.use((err, req, res, next) => {
     res.status(500).send('Internal Server Error').end();
 });
 
-app.listen(3001, "127.0.0.1", () => {
-    console.log("API server started.");
+app.listen(4000, "127.0.0.1", () => {
+    console.log("API server started at http://127.0.0.1:4000/");
 });
