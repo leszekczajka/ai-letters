@@ -17,7 +17,7 @@ else
         -e TZ=Europe/Warsaw \
         --restart always \
         --name=ai-letters-server \
-        -p 4011:4000 \
+        -p 127.0.0.1:4011:4000 \
         ai-letters-server:$1;
     echo "Done."
     docker ps -f name=ai-letters-server;

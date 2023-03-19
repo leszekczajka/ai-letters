@@ -17,7 +17,7 @@ else
         -e TZ=Europe/Warsaw \
         --restart always \
         --name=ai-letters-client \
-        -p 4010:80 \
+        -p 127.0.0.1:4010:80 \
         ai-letters-client:$1;
     echo "Done."
     docker ps -f name=ai-letters-client;
